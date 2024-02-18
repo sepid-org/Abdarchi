@@ -1,0 +1,33 @@
+# Compiled binary
+*.exe
+*.out
+*.app
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Dependency directories
+vendor/
+
+# Compiled Go code
+*.a
+*.o
+
+# IDE files
+.idea/
+.vscode/
+
+# Build files
+build/
+
+# Echo binary
+echo
+
+# Ignore configuration files
+config.yaml
+
+# Ignore environment files
+.env

@@ -1,6 +1,6 @@
 FROM golang:1.22
 
-ADD server.go /go/src/server.go
+ADD . /go/src/
 
 EXPOSE 8000
 

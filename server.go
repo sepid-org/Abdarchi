@@ -19,10 +19,15 @@ func main() {
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
 
-	e.POST("/post", handlePost)
+	e.POST("/post/", handlePost)
+	e.GET("/get/", handleGet)
 
 
 	e.Logger.Fatal(e.Start(":8080"))
+}
+
+func handleGet(c echo.Context) error {
+	return c.String(http.StatusOK, "سلام فرمانده!")
 }
 
 func handlePost(c echo.Context) error {

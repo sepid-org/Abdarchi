@@ -43,11 +43,7 @@ Before you begin, make sure you have the following installed on your machine:
 
 ```
 echo-project/
-|-- handlers/
-|   |-- handler.go
-|-- routes/
-|   |-- routes.go
-|-- main.go
+|-- server.go
 |-- go.mod
 |-- go.sum
 ```

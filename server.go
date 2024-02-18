@@ -23,7 +23,7 @@ func main() {
 	e.GET("/get/", handleGet)
 
 
-	e.Logger.Fatal(e.Start(":8080"))
+	e.Logger.Fatal(e.Start(":8000"))
 }
 
 func handleGet(c echo.Context) error {
